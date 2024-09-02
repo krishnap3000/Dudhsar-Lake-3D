@@ -1,0 +1,220 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "AP_12365_FBD_F0440_RT1_dem_cfabdf32_b4bf_4c0d_a818_c301c03563a4": {
+        "enabled": true,
+        "groups": []
+      },
+      "DudhsarLake_DEM_d9ea3e5c_1d12_4549_9a11_4f9e99f8023e": {
+        "enabled": true,
+        "groups": []
+      },
+      "IND_adm2_08fb192b_3a77_4589_b621_36f31332c63e": {
+        "enabled": true,
+        "groups": []
+      },
+      "IND_adm3_95ac2140_ac7c_408e_a885_e07b0803d6eb": {
+        "enabled": true,
+        "groups": []
+      },
+      "IND_adm3_e99dd3b9_f264_4775_8a4e_fccf8070b97e": {
+        "enabled": true,
+        "groups": []
+      },
+      "OSM_Road_c1eecfed_3f2c_4252_8f5f_d417436e72cf": {
+        "enabled": true,
+        "groups": []
+      },
+      "OsmFile_multipolygons_47e45a87_68a5_478b_b471_89d92f66e359": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:9a4a853a": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "OsmFile_multipolygons_47e45a87_68a5_478b_b471_89d92f66e359",
+      "name": "OsmFile_multipolygons",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "IND_adm3_95ac2140_ac7c_408e_a885_e07b0803d6eb",
+      "name": "IND_adm3",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "IND_adm3_e99dd3b9_f264_4775_8a4e_fccf8070b97e",
+      "name": "IND_adm3 copy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "IND_adm2_08fb192b_3a77_4589_b621_36f31332c63e",
+      "name": "IND_adm2",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DudhsarLake_DEM_d9ea3e5c_1d12_4549_9a11_4f9e99f8023e",
+      "name": "DudhsarLake_DEM",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "OsmFile_multipolygons_47e45a87_68a5_478b_b471_89d92f66e359",
+        "horizontalSlider_DEMSize": 6,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "e7788551",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "1024",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "e7788551",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 2,
+      "layerId": "OSM_Road_c1eecfed_3f2c_4252_8f5f_d417436e72cf",
+      "name": "OSM Road",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "AP_12365_FBD_F0440_RT1_dem_cfabdf32_b4bf_4c0d_a818_c301c03563a4",
+      "name": "AP_12365_FBD_F0440_RT1.dem",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:9a4a853a",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "37957b8e",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "37957b8e",
+        "spinBox_Size": 3
+      },
+      "visible": false
+    }
+  ],
+  "OPT": {
+    "localMode": true
+  },
+  "OutputFilename": "D:/Tessellate EarthScan Pvt. Ltd/04 Projects/2024/Drone Photogrammetry/05 Dudhsar Lake 3D/04 Deliverable/Dudhsar Lake\\3D Model Dudhsar Lake .html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "7971774.593897806",
+    "lineEdit_CenterY": "2602568.786091907",
+    "lineEdit_Height": "2314.4917543008924",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "2314.4917543008924",
+    "lineEdit_zFactor": "10",
+    "slider_Fog": 41
+  },
+  "Template": "3DViewer.html",
+  "Title": "DudhsarLake_Kri_3D",
+  "Version": 20703
+}
